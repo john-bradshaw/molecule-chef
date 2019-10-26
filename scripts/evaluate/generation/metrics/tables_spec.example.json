@@ -1,0 +1,13 @@
+{
+  "data_dir": "../generated_smiles",
+  "table_format": "github",
+  "tables_to_create": [
+
+    {"metrics":  ["num_generated","validity", "uniqueness",
+                   "novelty", "FCD","quality_filters"],
+      "rows": {
+        "Molecule Chef": ["mchef-samples.assembled-product.txt", 20000]
+      }
+    }
+  ]
+}
