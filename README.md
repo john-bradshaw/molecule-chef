@@ -14,7 +14,7 @@ Core code for the paper "A Model to Search for Synthesizable Molecules" (https:/
 4. Add the correct modules to the `PYTHONPATH`, e.g. this can be done by `source set_up.sh`
 
 *PyTorch*  
-We have updated the code such that it is using version 1.2.
+We have updated the code such that it is using version 1.2 (or 1.3).
 
 *RDKit*  
  We recommend installing rdkit through Anaconda, see e.g.
