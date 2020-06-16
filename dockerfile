@@ -21,7 +21,7 @@ RUN conda create -y -n py36_py041 python=3.6  \
  && /opt/conda/bin/conda install -n py36_py041 -y tqdm -c conda-forge \
  && /opt/conda/bin/conda install -n py36_py041 -y six future \
  && conda create -y -n py36_py121 python=3.6  \
- && /opt/conda/bin/conda install -n py36_py121 -y pytorch torchvision cudatoolkit=9.2 ignite -c pytorch \
+ && /opt/conda/bin/conda install -n py36_py121 -y pytorch=1.2.0 torchvision cudatoolkit=9.2 ignite -c pytorch \
  && /opt/conda/bin/conda install -n py36_py121 -y rdkit=2019.03.4.0 -c rdkit \
  && /opt/conda/bin/conda install -n py36_py121 -y tqdm -c conda-forge \
  && /opt/conda/bin/conda install -n py36_py121 -y pytest arrow ipython future Pillow seaborn \
