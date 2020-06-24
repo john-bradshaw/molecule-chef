@@ -152,7 +152,7 @@ def validation(val_dataloader, ae, tb_writer_val, cuda_details, property_pred_fa
         ['Reconstruct Acc (elem level)', elem_acc_meter.avg],
         ['Prediction MSE', prediction_mse_meter.avg],
     ],
-        tablefmt="simple", floatfmt=".4f").encode('utf-8'))
+        tablefmt="simple", floatfmt=".4f"))
     print("===============================================")
     if tb_writer_val is not None:
         tb_writer_val.add_scalar("total_loss", total_loss_meter.avg)
