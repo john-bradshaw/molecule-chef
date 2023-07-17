@@ -47,7 +47,7 @@ An uploaded Docker image lives on Docker Hub [here](https://hub.docker.com/r/joh
 
 As mentioned in our paper we use the Molecular Transformer^†^ for reaction prediction. For this task we use the
 authors' [official implementation](https://github.com/pschwllr/MolecularTransformer) for running this model. 
-The weights that we use can be found on [Google Drive here](https://drive.google.com/file/d/1ogXzAg71BOs9SBrVt-umgcdc1_0ijUvU/view?usp=sharing). 
+The weights that we use can be found on [Figshare here](https://figshare.com/articles/software/molecular_transformer_weights_pt/13325969). 
 ```bash
 shasum -a 256 molecular_transformer_weights.pt
 ## returns 93199b61da0a0f864e1d37a8a80a44f0ca9455645e291692e89d5405e786b450  molecular_transformer_weights.pt
