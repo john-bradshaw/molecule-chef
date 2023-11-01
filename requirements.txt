@@ -34,7 +34,7 @@ mkl-random==1.1.0
 mkl-service==2.3.0
 more-itertools==7.2.0
 multiset==2.1.1
-numpy==1.17.2
+numpy==1.22.0
 olefile==0.46
 opt-einsum==3.1.0
 packaging==19.2
